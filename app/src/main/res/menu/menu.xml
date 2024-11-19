@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="delete"
+        android:icon="@drawable/ic_delete"
+        android:id="@+id/delete"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="aeroplane"
+        android:icon="@drawable/baseline_airplanemode"
+        android:id="@+id/aeroplanemode"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="about"
+        android:icon="@drawable/baseline_about"
+        android:id="@+id/about"
+        app:showAsAction="never" />
+
+</menu>
